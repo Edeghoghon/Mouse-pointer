@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #FAAFBA;
+    color: white;
+    font-family: cursive;
+}
+.container{
+    display: flex;
+    text-align: center;
+}
+
+.mouseevent{
+    border: solid 3px darkblue;
+    margin: 40px;
+    min-width: 180px;
+    min-height: 100px;
+    position: relative;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+
+}
+.mouseevent h4{
+    position: absolute;
+    top: -50px;
+    font-size: 15px;
+    left:50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-weight: 100;
+    color: darkblue;
+}
+@media (max-width: 500px){
+    .container{
+        flex-direction: column;
+    }
+    
+}
